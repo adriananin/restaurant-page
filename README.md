@@ -18,5 +18,5 @@ To run the website locally, follow these steps:
 
 - Clone the repository
 - Install the dependencies: npm install
-- Build the JavaScript bundle: npx weba=pack
+- Build the JavaScript bundle: npx webpack
 - Open the index.html file in your browser

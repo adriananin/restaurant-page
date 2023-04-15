@@ -1,0 +1,86 @@
+@import url("normalize.css");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fraunces:wght@700&family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&family=Pacifico&display=swap");
+
+body {
+  color: white;
+  overflow: hidden;
+  position: relative;
+  background-image: url("bg.jpg");
+  background-size: cover;
+  height: 100vh;
+  background-position: center center;
+}
+
+#content {
+  color: white;
+  margin: 0;
+
+  position: relative;
+  padding: 10px;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Pacifico", cursive;
+  color: white;
+}
+
+.intro-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+
+.logo {
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 0 10px;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.intro {
+  text-align: center;
+}
+
+.intro__cursive {
+  font-family: "Open Sans", sans-serif;
+}
+
+.intro__straight {
+  margin-top: -20px;
+  font-family: "Pacifico", cursive;
+}
+
+.intro__definition {
+  text-align: center;
+  margin-top: -10px;
+  font-family: "Open Sans", sans-serif;
+}

@@ -5,18 +5,10 @@ body {
   color: white;
   overflow: hidden;
   position: relative;
-  background-image: url("bg.jpg");
+  background-image: url("./bg.jpg");
   background-size: cover;
   height: 100vh;
   background-position: center center;
-}
-
-#content {
-  color: white;
-  margin: 0;
-
-  position: relative;
-  padding: 10px;
 }
 
 body::before {
@@ -27,6 +19,20 @@ body::before {
   bottom: 0px;
   left: 0px;
   background-color: rgba(0, 0, 0, 0.75);
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65vh;
+}
+
+#content {
+  color: white;
+  margin: 0;
+  position: relative;
+  padding: 10px;
 }
 
 .header {
